@@ -25,7 +25,7 @@ def count_ways(M, A, B):
     return dp[n][0][0]
 
 
-# 👇 CAMBIO AQUÍ
+# CAMBIO AQUÍ
 with open("decode.in") as f:
     for line in f:
         if line.strip() == "":
